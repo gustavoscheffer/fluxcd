@@ -19,6 +19,3 @@ k -n flux-system get Gitrepository
 ```
 k -n flux-system get kustomizations.kustomize.toolkit.fluxcd.io
 ```
-```
-k -n flux-system get HelmRepository
-```
