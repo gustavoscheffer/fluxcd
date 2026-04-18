@@ -4,7 +4,13 @@
 
 FluxCD bootstrap staging cluster
 ```
-flux bootstrap github --token-auth --owner=gustavoscheffer --repository=fluxcd  --branch=main --path=clusters/staging --personal --components-extra=source-watcher
+flux bootstrap github \
+    --token-auth --owner=gustavoscheffer \
+    --repository=fluxcd \
+    --branch=main \
+    --path=clusters/staging \
+    --personal \
+    --components-extra=source-watcher
 ```
 
 k -n flux-system get ArtifactGenerator
