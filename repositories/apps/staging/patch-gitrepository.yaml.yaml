@@ -1,0 +1,7 @@
+
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: flask-app
+spec:
+  interval: 2m
