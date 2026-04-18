@@ -5,10 +5,6 @@ resources:
   - ../base/flask-app
 
 patches:
-  - path: patch-kustomization.yaml
-    target:
-      kind: Kustomization
-
   - path: patch-gitrepository.yaml
     target:
       kind: GitRepository
