@@ -1,7 +1,5 @@
 # fluxcd
 
-
-
 FluxCD bootstrap staging cluster
 ```
 flux bootstrap github \
