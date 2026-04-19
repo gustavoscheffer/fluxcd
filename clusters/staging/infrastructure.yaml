@@ -9,6 +9,6 @@ spec:
   sourceRef:
     kind: ExternalArtifact
     name: infrastructure
-  path: ./staging
+  path: ./controllers
   prune: true
   wait: true
